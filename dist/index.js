@@ -623,7 +623,7 @@ Object.defineProperty(exports, "__esModule", {
 
 var _App = __webpack_require__(9);
 
-Object.defineProperty(exports, 'AppBar', {
+Object.defineProperty(exports, 'App', {
   enumerable: true,
   get: function get() {
     return _interopRequireDefault(_App).default;
@@ -632,7 +632,7 @@ Object.defineProperty(exports, 'AppBar', {
 
 var _Header = __webpack_require__(7);
 
-Object.defineProperty(exports, 'Avatar', {
+Object.defineProperty(exports, 'Header', {
   enumerable: true,
   get: function get() {
     return _interopRequireDefault(_Header).default;
