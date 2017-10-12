@@ -600,7 +600,7 @@ var Header = function (_React$Component) {
             return _react2.default.createElement(
                 'h1',
                 null,
-                'I am header from ./'
+                'I am header from node_modules'
             );
         }
     }]);
@@ -686,7 +686,7 @@ var App = function (_React$Component) {
                 'div',
                 null,
                 _react2.default.createElement(_Header2.default, null),
-                'I am component from ./'
+                'I am component from node_modules'
             );
         }
     }]);
