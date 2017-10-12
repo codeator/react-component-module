@@ -1,10 +1,10 @@
 import path from 'path'
 
 module.exports = {
-    entry: './src/app/boot.js',
+    entry: './src/index.js',
     output: {
         path: path.resolve('dist'),
-        filename: 'app.js'
+        filename: 'index.js'
     },
     module: {
         loaders: [
@@ -14,7 +14,7 @@ module.exports = {
     },
     resolve: {
         modules: [
-            path.resolve('./src/app'),
+            path.resolve('./src'),
             path.resolve('./node_modules')
         ]
     }
